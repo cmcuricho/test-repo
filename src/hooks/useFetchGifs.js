@@ -19,7 +19,7 @@ export const useFetchGifs = ( category ) => {
   }, []);
 
   const handleTodo = () => {
-    console.log('Todo');
+    console.log('Hell world');
   }
   
 
