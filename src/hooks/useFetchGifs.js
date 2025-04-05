@@ -18,10 +18,14 @@ export const useFetchGifs = ( category ) => {
 // 
   }, []);
 
+  const handleTodo = () => {
+    console.log('Todo');
+  }
   
 
   return {
     images,
-    isLoading
+    isLoading,
+    handleTodo
   }
 }
