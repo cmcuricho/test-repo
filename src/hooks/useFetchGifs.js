@@ -19,7 +19,7 @@ export const useFetchGifs = ( category ) => {
   }, []);
 
   const handleTodo = () => {
-    console.log('Hell world nuevo');
+    const newChange = 'hola'
   }
   
 
